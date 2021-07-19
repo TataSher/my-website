@@ -1,9 +1,9 @@
 import React from "react";
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -22,12 +22,12 @@ function App() {
           Learn React Nanana
         </a>
         <div>
-          <FontAwesomeIcon icon={faLinkedin}/>
+          <FontAwesomeIcon icon={faLinkedin} />
         </div>
         <div>
           <FontAwesomeIcon icon={faGithubSquare} />
         </div>
-          <div>
+        <div>
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
       </header>
@@ -36,10 +36,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
