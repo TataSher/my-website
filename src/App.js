@@ -1,4 +1,8 @@
+import React from "react";
 import logo from './logo.svg';
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './App.css';
 
 function App() {
@@ -15,11 +19,27 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Nanana
         </a>
+        <div>
+          <FontAwesomeIcon icon={faLinkedin}/>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faGithubSquare} />
+        </div>
+          <div>
+          <FontAwesomeIcon icon={faEnvelope} />
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
