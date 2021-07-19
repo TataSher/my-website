@@ -15,18 +15,20 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/flora-davies-2409/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Nanana
-        </a>
-        <div>
           <FontAwesomeIcon icon={faLinkedin} />
-        </div>
-        <div>
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/TataSher"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faGithubSquare} />
-        </div>
+        </a>
         <div>
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
