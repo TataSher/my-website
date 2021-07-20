@@ -15,30 +15,32 @@ function App() {
         <div className="home-page">
           <img src={logo} className="App-logo" alt="logo" />
           <p>FloJaNa's Awesome Website</p>
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/flora-davies-2409/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a
-            className="App-link"
-            href="https://github.com/TataSher"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithubSquare} />
-          </a>
-          <a
-            className="App-link"
-            href="mailto:j.leighton.hooper@outlook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>
+          <div className="icons">
+            <a
+              className="App-link"
+              href="https://www.linkedin.com/in/flora-davies-2409/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size='lg'/>
+            </a>
+            <a
+              className="App-link"
+              href="https://github.com/TataSher"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithubSquare} size='lg' />
+            </a>
+            <a
+              className="App-link"
+              href="mailto:j.leighton.hooper@outlook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} size='lg' />
+            </a>
+          </div>
         </div>
       </Section>
       <Section id="about">
@@ -46,30 +48,32 @@ function App() {
         <div className="about-me">
           <img src={logo} className="App-logo" alt="logo" />
           <p>FloJaNa's Awesome Website</p>
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/flora-davies-2409/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a
-            className="App-link"
-            href="https://github.com/TataSher"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithubSquare} />
-          </a>
-          <a
-            className="App-link"
-            href="mailto:j.leighton.hooper@outlook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>
+          <div className="icons">
+            <a
+              className="App-link"
+              href="https://www.linkedin.com/in/flora-davies-2409/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size='lg'/>
+            </a>
+            <a
+              className="App-link"
+              href="https://github.com/TataSher"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithubSquare} size='lg'/>
+            </a>
+            <a
+              className="App-link"
+              href="mailto:j.leighton.hooper@outlook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} size='lg'/>
+            </a>
+            </div>
         </div>
       </Section>
       <Section id="Projects">My Projects</Section>

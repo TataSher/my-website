@@ -26,6 +26,7 @@
 
 .App-link {
   color: white;
+  padding: 0.15em;
 }
 
 @keyframes App-logo-spin {
@@ -55,4 +56,8 @@
 #menu {
   color: teal;
   align-items: center;
+}
+
+.transition {
+  transition: background-color 1s ease
 }
