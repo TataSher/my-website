@@ -72,6 +72,7 @@ function App() {
           </a>
         </div>
       </Section>
+      <Section id="Projects">My Projects</Section>
     </ScrollingProvider>
   );
 }

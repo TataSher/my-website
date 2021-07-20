@@ -5,12 +5,14 @@ export const DynamicMenu = () => {
   const sections = useScrollSections();
 
   return (
-    <ul>
-      {sections.map(({ id, onClick, selected }) => (
-        <li key={id} onClick={onClick} selected={selected}>
-          {id.toUpperCase()}
-        </li>
-      ))}
-    </ul>
+    <div id="menu">
+      <ul>
+        {sections.map(({ id, onClick, selected }) => (
+          <li key={id} onClick={onClick} selected={selected}>
+            {id.toUpperCase()}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
