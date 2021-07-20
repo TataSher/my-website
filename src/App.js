@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { DynamicMenu } from "./components/dynamicMenu/dynamicMenu";
 import "./App.css";
@@ -38,11 +39,18 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEnvelope} size='lg' />
+              <FontAwesomeIcon icon={faEnvelopeSquare} size='lg' />
             </a>
           </div>
+          <div class="arrow">
+            <a className="arrow-link" href="#about">
+              <FontAwesomeIcon icon={faAngleDown} size='lg' className="bounce"/>
+            </a>
+          </div>
+
         </div>
       </Section>
+
       <Section id="about">
         {" "}
         <div className="about-me">
@@ -71,7 +79,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEnvelope} size='lg'/>
+              <FontAwesomeIcon icon={faEnvelopeSquare} size='lg'/>
             </a>
             </div>
         </div>
