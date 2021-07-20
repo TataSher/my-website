@@ -30,9 +30,15 @@ function App() {
         >
           <FontAwesomeIcon icon={faGithubSquare} />
         </a>
-        <div>
-          <FontAwesomeIcon icon={faEnvelope} />
-        </div>
+        <a 
+          
+          className="App-link"
+          href="mailto:j.leighton.hooper@outlook.com"
+          target="_blank"
+          rel="noopener noreferrer">
+            
+            <FontAwesomeIcon icon={faEnvelope} />
+        </a>
       </header>
     </div>
   );
