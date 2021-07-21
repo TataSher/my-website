@@ -9,6 +9,7 @@
   color: white;
 }
 
+
 .App {
   text-align: center;
 }
@@ -90,13 +91,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 #menu {
   color: teal;
-  align-items: center;
-}
-
-.transition {
-  transition: background-color 1s ease;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }

@@ -10,8 +10,9 @@ import { ScrollingProvider, Section } from "react-scroll-section";
 
 function App() {
   return (
+
     <ScrollingProvider>
-      <DynamicMenu />
+    <DynamicMenu/>
       <Section id="home">
         <div className="home-page">
           <img src={logo} className="App-logo" alt="logo" />
