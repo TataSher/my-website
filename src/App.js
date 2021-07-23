@@ -23,7 +23,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} size='lg'/>
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
             <a
               className="App-link"
@@ -31,7 +31,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithubSquare} size='lg' />
+              <FontAwesomeIcon icon={faGithubSquare} size="lg" />
             </a>
             <a
               className="App-link"
@@ -39,18 +39,20 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEnvelopeSquare} size='lg' />
+              <FontAwesomeIcon icon={faEnvelopeSquare} size="lg" />
             </a>
           </div>
           <div class="arrow">
             <a className="arrow-link" href="#about">
-              <FontAwesomeIcon icon={faAngleDown} size='lg' className="bounce"/>
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                size="lg"
+                className="bounce"
+              />
             </a>
           </div>
-
         </div>
       </Section>
-
       <Section id="about">
         {" "}
         <div className="about-me">
@@ -63,7 +65,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} size='lg'/>
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
             <a
               className="App-link"
@@ -71,7 +73,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithubSquare} size='lg'/>
+              <FontAwesomeIcon icon={faGithubSquare} size="lg" />
             </a>
             <a
               className="App-link"
@@ -79,9 +81,9 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEnvelopeSquare} size='lg'/>
+              <FontAwesomeIcon icon={faEnvelopeSquare} size="lg" />
             </a>
-            </div>
+          </div>
         </div>
       </Section>
       <Section id="Projects">My Projects</Section>

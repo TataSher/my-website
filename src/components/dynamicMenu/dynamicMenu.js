@@ -8,7 +8,7 @@ export const DynamicMenu = () => {
     <div id="menu">
       <ul>
         {sections.map(({ id, onClick, selected }) => (
-          <li key={id} onClick={onClick} selected={selected}>
+          <li className="item" key={id} onClick={onClick} selected={selected}>
             {id.toUpperCase()}
           </li>
         ))}

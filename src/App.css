@@ -92,9 +92,29 @@
   color: white;
 }
 
+.item {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin: 0;
+  padding: 25px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  border-top: 5px solid;
+}
+
 #menu {
-  color: teal;
-  align-items: center;
+  color: black;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  display: table;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
 }
 
 .transition {
